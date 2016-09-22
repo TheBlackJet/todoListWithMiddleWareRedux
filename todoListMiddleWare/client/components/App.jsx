@@ -15,7 +15,7 @@ class App extends Component{
               <div className = "container">
                 <div className="row">
                   <div className="col-xs-12">
-                    <InputField />
+                    <InputField store={this.props.store} />
                   </div>
                 </div>
                 <div className="row">
