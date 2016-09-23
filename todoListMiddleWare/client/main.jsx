@@ -7,7 +7,9 @@ import { createStore } from 'redux';
 import App from './components/App.jsx';
 import { rootReducer } from './reducers/index.jsx';
 
-//import { Images } from '../import/api/images.js';
+//import { Images } from '../import/api/images.js
+
+const openWeatherApiKey = "8e66bb9ab01bb3f28205c83f9034db62";
 
 const store = createStore(rootReducer, window.devToolsExtension && window.devToolsExtension());
 
